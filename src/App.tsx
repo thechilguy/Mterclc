@@ -57,7 +57,7 @@ function App() {
                 <h1 className="font-bold text-xl mb-5">Mortgage Calculator</h1>
                 <button
                   type="button"
-                  className="font-light underline"
+                  className="font-light underline text-sm"
                   onClick={() => {
                     methods.reset();
                     setMonthlyPayment(null);
