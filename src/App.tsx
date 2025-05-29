@@ -59,7 +59,7 @@ function App() {
                 </h1>
                 <button
                   type="button"
-                  className="font-light underline text-sm"
+                  className="font-light underline "
                   onClick={() => {
                     methods.reset();
                     setMonthlyPayment(null);
