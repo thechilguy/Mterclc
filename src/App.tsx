@@ -54,7 +54,9 @@ function App() {
           <FormProvider {...methods}>
             <form onSubmit={methods.handleSubmit(onSubmit)}>
               <div className="flex justify-between items-center mb-4">
-                <h1 className="font-bold text-xl mb-5">Mortgage Calculator</h1>
+                <h1 className="font-bold text-xl mb-5">
+                  Mortgage Calculator test
+                </h1>
                 <button
                   type="button"
                   className="font-light underline text-sm"
